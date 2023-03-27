@@ -1,0 +1,69 @@
+/* 
+Author Lee Donald
+Stylesheet for HP Project
+*/
+
+h1{
+    color:rgb(232, 213, 3);
+    font-size: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5px;
+    margin-top: 5px;
+    }
+    p{
+        font-size: 8px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(194, 203, 8);
+        text-align: center;
+    
+    }
+    #searchBar {
+        width: 100%;
+        height: 32px;
+        border-radius: 10px;
+        border: 0.5px solid #eaeaea;
+        padding: 10px;
+        font-size: 12px;
+    }
+        #searchWrapper {
+        position: relative;
+    }
+        #searchWrapper::after {
+        content: 'search';
+        position: absolute;
+        top: 7px;
+        right: 15px;
+        
+    }
+    p{
+    color: rgb(194, 203, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    }
+    body{background: #4d0302;}
+
+    .options{
+    text-align: center;
+    font-size: smaller;
+    color: rgb(102, 5, 5);
+    a:hover, a:active;{
+    background-color: red;
+    }
+}
+    
+    h2{
+        border: inset 10px rgb(202, 195, 7);
+        color: #4d0302;
+        background-color: rgb(248, 242, 247);    
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: small;
+        padding: 20px;
+      }
+      p{
+        font-size: small;
+           }
+   
